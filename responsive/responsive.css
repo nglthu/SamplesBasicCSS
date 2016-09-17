@@ -1,0 +1,42 @@
+h1{
+	color:rebeccapurple;
+}
+
+element.style {
+    padding: 10px;
+}
+.row{
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+}
+.col-1{
+	width:8.33%;
+}
+.col-2{
+	width:16.66%;
+}
+.col-3{
+	width:24%;
+	margin:2px;
+}
+.col-4{
+	width:32.33%;
+	margin:2px;
+}
+.col-5{
+	width:40.66%;
+	margin:2px;
+}
+.col-6{
+	width:49.99%;
+}
+@media only screen and (max-width:500px){
+	p{
+		background-color:brown;
+	}
+}
+*{
+	font-family: "Lato" sans-serif;
+	font-size:15px;
+}

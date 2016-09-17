@@ -1,0 +1,23 @@
+.exponent {
+    vertical-align: super;
+}
+.subscript {
+    vertical-align: sub;
+    }
+.fox, .dog {
+    vertical-align: middle;
+}
+.profile-details {
+    display: inline-block;
+    vertical-align: top;
+}
+/*Line height*/
+.one {
+    line-height: 22px;
+}
+.two {
+    line-height: 2;
+}
+.three {
+    line-height: 300%;
+}

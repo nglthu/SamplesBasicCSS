@@ -1,0 +1,25 @@
+.three {
+    background: #8EE546;
+    border: 5px solid #91CB61;
+    text-algin: center;
+    text-align: right;
+}
+.two {
+    background: #4560B2;
+    border: 5px solid #4960A3;
+    text-align: center;
+}
+.one {
+    margin-top: 0.2em;
+    text-align: left;
+}
+.four {
+    background: #FFC74E;
+    border: 5px solid #FFBD2E;
+    text-align: justify;
+}
+.five {
+    background: #40BE8E;
+    border: 5px solid #56AB8B;
+    text-align: right;
+}
