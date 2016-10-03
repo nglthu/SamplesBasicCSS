@@ -1,15 +1,9 @@
 (function () {
-    // replace this line with your JavaScript code
     document.querySelector('#tshirt-creation-form').addEventListener('submit', createShirtFunction);
 
     function createShirtFunction(evt) {
-        // prevent the form from submitting
-        evt.preventDefault();
-
-        // build and create shirt from form input
-        myShop.createShirt();
-
-        // clear the form so new shirts can be created
+       evt.preventDefault();
+       myShop.createShirt();
         this.reset();
     }
 
@@ -19,10 +13,7 @@
 
     Shop.prototype = {
         addNewShirt: function (shirtColor, shirtName, shirtPrice) {
-            // create the shirt <div> element and fill with the submitted data
             var shirtDiv = this.fillShirtTemplate(shirtColor, shirtName, shirtPrice);
-
-            // get add the newly created shirt <div> to the page
             var shirtContainer = document.querySelector('#tshirt-container');
             shirtContainer.appendChild(shirtDiv);
         },
@@ -73,5 +64,5 @@
         }
     };
 
-    var myShop = new Shop('Udacity Shirts');
+    var myShop = new Shop('Shirts');
 })();
